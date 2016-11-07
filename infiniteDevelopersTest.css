@@ -11,16 +11,7 @@ InfiniteDevelopers test
 		div like 'featured' with 'artworks'
 		hexCSS
 	}
-	9.bottom {
-		colspan 8 div {
-			colspan 8 div {
-				
-			}
-			colspan 4 div {
-				
-			}
-		}
-	}
+	
 	10.social {
 		no bootstrap, just inline-block with centred wrapper div
 		hover background
@@ -68,11 +59,17 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	7.news {
+	9.bottom {
 		colspan 8 div {
-			colspan 6 divs
+			colspan 8 div {
+				
+			}
+			colspan 4 div {
+				
+			}
 		}
 	}
+	
 }
 
 .done {
@@ -128,5 +125,10 @@ tasks.in.progress {
 	6.split {
 		background pic of div with bootstrap margin override
 		double div 'I ART' 'THEREFORE I AM'
+	}
+	7.news {
+		colspan 8 div {
+			colspan 6 divs
+		}
 	}
 }
