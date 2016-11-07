@@ -1,6 +1,6 @@
 @bkg: #FCFCFC;
 @h-200: hsl(200, 70%, 60%);
-@h-220: hsl(220, 70%, 60%);
+@h-210: hsl(210, 70%, 60%);
 
 html,
 body {
@@ -409,6 +409,69 @@ body {
 	}
 }
 .social {
+	background: @h-200;
+	height: 135px;
+	position: relative;
+	.wrapper {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: auto;
+		width: 1010px;
+		height: 100%;
+		.item {
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			min-width: 198px;
+			height: 100%;
+			&:hover {
+				background: @h-210;
+				cursor: pointer;
+			}
+			*:hover {
+				cursor: pointer;
+			}
+			.inner {
+				position: absolute;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				width: 180px;
+				height: 50px;
+				& > div {
+					display: inline-block;
+					vertical-align: middle;
+					position: relative;
+					border-radius: 3px;
+					border: solid rgba(255, 255, 255, 0.6) 2px;
+					width: 50px;
+					height: 50px;
+					span {
+						color: white;
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						margin: auto;
+						width: 24px;
+						height: 26px;
+					}
+				}
+				p {
+					display: inline-block;
+					vertical-align: middle;
+					color: white;
+					width: 120px;
+					padding: 0 15px;
+					margin: 0;
+				}
+			}
+		}
+	}
 
 }
 .footer {

@@ -12,16 +12,7 @@ InfiniteDevelopers test
 		hexCSS
 	}
 	
-	10.social {
-		no bootstrap, just inline-block with centred wrapper div
-		hover background
-	}
-	11.footer {
-		colspan 8 {
-			colspan 3 divs
-			tiny hr's
-		}
-	}
+	
 	
 	.fill all texts {
 		.hex hovers {
@@ -59,17 +50,12 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	9.bottom {
-		colspan 8 div {
-			colspan 8 div {
-				
-			}
-			colspan 4 div {
-				
-			}
+	11.footer {
+		colspan 8 {
+			colspan 3 divs
+			tiny hr's
 		}
-	}
-	
+	}	
 }
 
 .done {
@@ -130,5 +116,19 @@ tasks.in.progress {
 		colspan 8 div {
 			colspan 6 divs
 		}
+	}
+	9.bottom {
+		colspan 8 div {
+			colspan 8 div {
+				
+			}
+			colspan 4 div {
+				
+			}
+		}
+	}
+	10.social {
+		no bootstrap, just inline-block with centred wrapper div
+		hover background
 	}
 }
