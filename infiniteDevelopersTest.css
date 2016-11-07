@@ -50,12 +50,7 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	11.footer {
-		colspan 8 {
-			colspan 3 divs
-			tiny hr's
-		}
-	}	
+
 }
 
 .done {
@@ -131,4 +126,10 @@ tasks.in.progress {
 		no bootstrap, just inline-block with centred wrapper div
 		hover background
 	}
+	11.footer {
+		colspan 8 {
+			colspan 3 divs
+			tiny hr's
+		}
+	}	
 }
