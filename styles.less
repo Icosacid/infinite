@@ -1,5 +1,72 @@
-.header {
+html,
+body {
+	border: none;
+	background: #FCFCFC;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
 
+/* Override Bootstrap negative margins mechanism */
+.container-fluid {
+	padding: 0;
+}
+.row {
+	padding: 0;
+	margin: 0;
+}
+.container-fluid > div {
+
+}
+.header {
+	padding: 10px;
+	background: hsla(200, 30%, 50%, 0.2);
+	.logo {
+		text-align: center;
+		margin: 15px;
+
+		span.fa,
+		p.brandname,
+		p.catch {
+			text-transform: uppercase;
+		}
+		span.fa {
+
+		}
+		p.brandname, p.catch {
+			font-family: 'Prociono', Arial, sans-serif;
+		}
+		p.brandname {
+			font-size: 2.5rem;
+			font-weight: 800;
+			margin: 5px 0 0;
+		}
+		p.catch {
+			font-size: 1.2rem;
+			font-style: italic;
+			&::before,
+			&::after {
+				content: ' -- ';
+			}
+		}
+
+	}
+	.header-right {
+		& > * {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.social {
+			display: inline-block;
+			vertical-align: middle;
+			background: #CCC;
+			margin: 5px;
+			width: 30px;
+			height: 30px;
+		}
+	}
 }
 .banner {
 

@@ -7,12 +7,6 @@ InfiniteDevelopers test
 	Design palette -> shades of grey and blue (200° hue)
 }
 .tasks {
-
-	2.layouting {
-		blocks.and.dimensions {
-			Fine-tuned in the end
-		}
-	}
 	3.header {
 		col-6.divs
 		img.logo.from.FA 'Fractalizers'
@@ -110,6 +104,7 @@ InfiniteDevelopers test
 	Readme setup doc
 	Responsiveness
 	Favicon
+	Hover cursors
 }
 .bonus {
 	global loader icon
@@ -124,6 +119,11 @@ tasks.in.progress {
 		LESS setup
 		PhpStorm setup
 		index.html wiring
+	}
+	2.layouting {
+		blocks.and.dimensions {
+			Fine-tuned in the end
+		}
 	}
 }
 
