@@ -7,15 +7,7 @@ InfiniteDevelopers test
 	Design palette -> shades of grey and blue (200° hue)
 }
 .tasks {
-	1.boilerplate {
-		Git setup
-		Bower setup
-		Bootstrap setup
-		FontAwesome setup
-		LESS setup
-		PhpStorm setup
-		index.html wiring
-	}
+
 	2.layouting {
 		blocks.and.dimensions {
 			Fine-tuned in the end
@@ -27,7 +19,7 @@ InfiniteDevelopers test
 		Vertically aligned 'Contact us'
 		grey.icons.blue.on.hover
 	}
-	4.pic {
+	4.banner {
 		full.size.background 'Orb with colors JPG HQ 1000px wide'
 		col 2 with 2 as offset
 		text content -> 'Guest' 'Toolbox' 'Text that spans two lines' 'About'
@@ -36,7 +28,7 @@ InfiniteDevelopers test
 		search icon FA
 		Centered text -> 'Yearly Meeting' 'For algorithmic artists'
 	}
-	5.à.la.une {
+	5.featured {
 		div {
 			colspan 8 centered
 			div {
@@ -57,7 +49,7 @@ InfiniteDevelopers test
 		}
 		
 	}
-	6.band {
+	6.split {
 		background pic of div with bootstrap margin override
 		double div 'I ART' 'THEREFORE I AM'
 	}
@@ -80,7 +72,7 @@ InfiniteDevelopers test
 			}
 		}
 	}
-	10.social shit {
+	10.social {
 		no bootstrap, just inline-block with centred wrapper div
 		hover background
 	}
@@ -107,9 +99,8 @@ InfiniteDevelopers test
 		
 	}
 	.AJAX.load {
-		
+
 	}
-	
 }
 .advised.bonus {
 	text about algorists in Lorem
@@ -125,7 +116,15 @@ InfiniteDevelopers test
 	creative elements
 }
 tasks.in.progress {
-
+	1.boilerplate {
+		Git setup
+		Bower setup
+		Bootstrap setup
+		FontAwesome setup
+		LESS setup
+		PhpStorm setup
+		index.html wiring
+	}
 }
 
 .done {
