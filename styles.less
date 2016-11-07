@@ -359,7 +359,6 @@ body {
 					right: 0;
 				}
 			}
-
 		}
 		hr {
 			border-color: #D5D5D5;
@@ -376,6 +375,36 @@ body {
 		}
 	}
 	.newsletter {
+		.inputs {
+			position: relative;
+			height: 120px;
+			input {
+				width: 100%;
+				height: 40px;
+				position: absolute;
+				padding-left: 15px;
+				color: #BBB;
+				font-weight: bold;
+			}
+			input:nth-of-type(1) {
+				top: 0;
+				left: 0;
+			}
+			input:nth-of-type(2),
+			input:nth-of-type(3) {
+				display: inline-block;
+				vertical-align: middle;
+				width: 48%;
+				top: 50px;
+			}
+			input:nth-of-type(2) {
+				left: 0;
+			}
+			input:nth-of-type(3) {
+				right: 0;
+			}
+		}
+
 
 	}
 }
