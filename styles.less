@@ -22,13 +22,43 @@ body {
 	margin: 0;
 }
 /* Generic style */
+.tile,
+.custom-button,
+.tag {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 15px;
+}
 .tile {
 	background: @h-200;
 	padding: 15px;
-	text-transform: uppercase;
 	color: white;
 	font-weight: bold;
-	text-align: center;
+}
+.custom-button {
+	background: none;
+	color: @h-200;
+	border: solid 2px @h-200;
+	&:hover {
+		cursor: pointer;
+		background: @h-200;
+		color: white;
+	}
+}
+.tag {
+	padding: 10px;
+	p {
+		background: #CCC;
+		color: white;
+		padding: 10px 15px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
+.categ-head {
+	hr {
+		margin-top: 25px;
+	}
 }
 
 /* Specific style */
@@ -178,13 +208,9 @@ body {
 }
 .featured {
 	padding: 30px 0;
-	.head {
-		hr {
-			margin-top: 25px;
-		}
-	}
+	margin-bottom: 40px;
 	.unit {
-		margin-top: 15px;
+		margin-top: 20px;
 		.left-catch {
 			position: relative;
 			min-height: 500px;
@@ -220,7 +246,7 @@ body {
 }
 .split {
 	background-color: black;
-	background-image: url('file:///C:/Users/alexa_000/Dev/infinite/img/playchaos.jpg');
+	background-image: url('img/playchaos.jpg');
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 50%;
@@ -254,9 +280,42 @@ body {
 			}
 		}
 	}
-
 }
 .news {
+	margin: 40px 0;
+	padding: 30px 0;
+	.news-unit {
+		margin-top: 20px;
+		.preview {
+			min-height: 400px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 150%;
+
+		}
+		.tags {
+			margin-left: -10px;
+			margin-top: 5px;
+			.tag {
+
+			}
+		}
+		.content {
+			h4 {
+				text-transform: uppercase;
+				font-size: 2.5rem;
+			}
+			p {
+				max-height: 100px;
+				font-size: 1.7rem;
+			}
+		}
+		.readmore {
+			margin-top: 25px;
+			margin-left: -15px;
+		}
+
+	}
 
 }
 .artworks {

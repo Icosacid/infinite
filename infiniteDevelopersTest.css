@@ -7,11 +7,6 @@ InfiniteDevelopers test
 	Design palette -> shades of grey and blue (200° hue, 60% sat, 70%lum)
 }
 .tasks {
-	7.news {
-		colspan 8 div {
-			colspan 6 divs
-		}
-	}
 	8.lee.jeffries {
 		div like 'featured' with 'artworks'
 		hexCSS
@@ -65,6 +60,7 @@ InfiniteDevelopers test
 	Responsiveness
 	Favicon
 	Hover cursors
+	CSS long text handling (add ... when overflow)
 }
 .bonus {
 	global loader icon
@@ -72,9 +68,10 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	6.split {
-		background pic of div with bootstrap margin override
-		double div 'I ART' 'THEREFORE I AM'
+	7.news {
+		colspan 8 div {
+			colspan 6 divs
+		}
 	}
 }
 
@@ -127,5 +124,9 @@ tasks.in.progress {
 				}
 			}
 		}
+	}
+	6.split {
+		background pic of div with bootstrap margin override
+		double div 'I ART' 'THEREFORE I AM'
 	}
 }
