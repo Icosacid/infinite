@@ -1,0 +1,133 @@
+InfiniteDevelopers test
+
+.directives {
+	Chosen tech -> Vue.js
+	Backend communication -> No PHP but Firebase.js
+	Bower packages -> At least jQuery, FontAwesome, BootStrap, LESS
+	Design palette -> shades of grey and blue (200° hue)
+}
+.tasks {
+	1.boilerplate {
+		Git setup
+		Bower setup
+		Bootstrap setup
+		FontAwesome setup
+		LESS setup
+		PhpStorm setup
+		index.html wiring
+	}
+	2.layouting {
+		blocks.and.dimensions {
+			Fine-tuned in the end
+		}
+	}
+	3.header {
+		col-6.divs
+		img.logo.from.FA 'Fractalizers'
+		Vertically aligned 'Contact us'
+		grey.icons.blue.on.hover
+	}
+	4.pic {
+		full.size.background 'Orb with colors JPG HQ 1000px wide'
+		col 2 with 2 as offset
+		text content -> 'Guest' 'Toolbox' 'Text that spans two lines' 'About'
+		hover color (blue 200°)
+		input with border radii
+		search icon FA
+		Centered text -> 'Yearly Meeting' 'For algorithmic artists'
+	}
+	5.à.la.une {
+		div {
+			colspan 8 centered
+			div {
+				colspan 2 button 'featured', blue 200° bkg
+				colspan 10 hr 
+			}
+			div {
+				2 divs inline-block vert align
+				left {
+					bkg pic (CSS) random small art pic
+					button 'NOVEMBER 31'
+					big text 'ALGORIST MEETUP'
+				}
+				right {
+					Lorems
+				}
+			}
+		}
+		
+	}
+	6.band {
+		background pic of div with bootstrap margin override
+		double div 'I ART' 'THEREFORE I AM'
+	}
+	7.news {
+		colspan 8 div {
+			colspan 6 divs
+		}
+	}
+	8.lee.jeffries {
+		div like 'featured' with 'artworks'
+		hexCSS
+	}
+	9.bottom {
+		colspan 8 div {
+			colspan 8 div {
+				
+			}
+			colspan 4 div {
+				
+			}
+		}
+	}
+	10.social shit {
+		no bootstrap, just inline-block with centred wrapper div
+		hover background
+	}
+	11.footer {
+		colspan 8 {
+			colspan 3 divs
+			tiny hr's
+		}
+	}
+	
+	.fill all texts {
+		.hex hovers {
+			
+		}
+	}
+	.fill all images {
+		
+	}
+	.finetune block dimensions
+	.structure.JSON.base {
+		
+	}
+	.create.Firebase.repo {
+		
+	}
+	.AJAX.load {
+		
+	}
+	
+}
+.advised.bonus {
+	text about algorists in Lorem
+	parallax on all sections
+	animated hexhover
+	Incorporate Vue.js
+	Readme setup doc
+	Responsiveness
+	Favicon
+}
+.bonus {
+	global loader icon
+	creative elements
+}
+tasks.in.progress {
+
+}
+
+.done {
+
+}
