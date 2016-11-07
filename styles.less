@@ -1,7 +1,18 @@
+/**
+ * Style for project Infinite
+ *
+ * @since 2016-11-07
+ * @author Alexandre Andrieux <alex@icosacid.com>
+ */
+
+/* Less variables */
 @bkg: #FCFCFC;
 @h-200: hsl(200, 70%, 60%);
 @h-210: hsl(210, 70%, 60%);
+@h-200-a: hsla(210, 70%, 60%, 0.7);
+@2ssqrt3: 1.1547005383792515290182975610039;
 
+/* Global */
 html,
 body {
 	border: none;
@@ -21,6 +32,7 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
 /* Generic style */
 .tile,
 .custom-button,
@@ -90,6 +102,43 @@ body {
 		}
 	}
 
+}
+.hexagon {
+	/* Inspired by ClemArt's work on hexagons */
+	/* View on CodePen at http://codepen.io/ClemArt/pen/xGoyPK */
+	width: 150px;
+	height: @2ssqrt3 * 150px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	.hex1 {
+		width: 100%;
+		height: 100%;
+		transform: rotate(60deg);
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+	.hex2 {
+		width: 100%;
+		height: 100%;
+		transform: rotate(60deg);
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+	.content {
+		background-image: url('img/starofstars.jpg');
+		background-size: cover;
+		background-position: center;
+		width: @2ssqrt3 * 100%;
+		height: 100%;
+		transform: rotate(-120deg);
+		position: absolute;
+		left: -7.5%;
+	}
 }
 
 /* Specific style */
@@ -330,6 +379,38 @@ body {
 	.hexblock {
 		height: 400px;
 		background: rgba(0, 0, 0, 0.3);
+		.hexagon .content .inside {
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+			background: @h-200-a;
+			&:hover {
+				opacity: 1;
+				transition: opacity 500ms;
+				cursor: pointer;
+			}
+			p {
+				margin: 0;
+				text-align: center;
+				color: white;
+				font-size: 1.6rem;
+				&:nth-of-type(1) {
+					font-weight: bold;
+					padding-top: 40px;
+					text-transform: uppercase;
+				}
+				&:nth-of-type(2) {
+					width: 100px;
+					margin: auto;
+				}
+			}
+			hr {
+				margin: 5px auto;
+				width: 40px;
+				border-width: 2px;
+				border-color: white;
+			}
+		}
 	}
 }
 .bottom {
