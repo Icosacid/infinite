@@ -4,15 +4,9 @@ InfiniteDevelopers test
 	Chosen tech -> Vue.js
 	Backend communication -> No PHP but Firebase.js
 	Bower packages -> At least jQuery, FontAwesome, BootStrap, LESS
-	Design palette -> shades of grey and blue (200° hue)
+	Design palette -> shades of grey and blue (200° hue, 60% sat, 70%lum)
 }
 .tasks {
-	3.header {
-		col-6.divs
-		img.logo.from.FA 'Fractalizers'
-		Vertically aligned 'Contact us'
-		grey.icons.blue.on.hover
-	}
 	4.banner {
 		full.size.background 'Orb with colors JPG HQ 1000px wide'
 		col 2 with 2 as offset
@@ -124,6 +118,12 @@ tasks.in.progress {
 		blocks.and.dimensions {
 			Fine-tuned in the end
 		}
+	}
+	3.header {
+		col-6.divs
+		img.logo.from.FA 'Fractalizers'
+		Vertically aligned 'Contact us'
+		grey.icons.blue.on.hover
 	}
 }
 

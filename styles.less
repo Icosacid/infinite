@@ -22,7 +22,6 @@ body {
 }
 .header {
 	padding: 10px;
-	background: hsla(200, 30%, 50%, 0.2);
 	.logo {
 		text-align: center;
 		margin: 15px;
@@ -54,22 +53,47 @@ body {
 
 	}
 	.header-right {
+		padding-top: 65px;
+		padding-left: 100px;
 		& > * {
 			display: inline-block;
 			vertical-align: middle;
+			margin: 5px;
+			color: #aaa;
+		}
+		p.contact-us {
+			font-weight: bold;
+			margin: 0 15px 0 5px;
 		}
 		.social {
 			display: inline-block;
 			vertical-align: middle;
+			position: relative;
 			background: #CCC;
 			margin: 5px;
-			width: 30px;
-			height: 30px;
+			width: 35px;
+			height: 35px;
+			color: white;
+			&:hover {
+				background: hsl(200, 60%, 70%);
+				cursor: pointer;
+			}
+			div {
+				position: absolute;
+				margin: auto;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				top: 0;
+				width: 25px;
+				height: 26px;
+			}
 		}
 	}
 }
 .banner {
-
+	height: 200px;
+	background: rgba(0, 0, 0, 0.05);
 }
 .featured {
 
