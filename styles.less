@@ -1,6 +1,6 @@
 @bkg: #FCFCFC;
-@h-200: hsl(200, 60%, 70%);
-@h-220: hsl(220, 60%, 70%);
+@h-200: hsl(200, 70%, 60%);
+@h-220: hsl(220, 70%, 60%);
 
 html,
 body {
@@ -219,6 +219,41 @@ body {
 	}
 }
 .split {
+	background-color: black;
+	background-image: url('file:///C:/Users/alexa_000/Dev/infinite/img/playchaos.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 50%;
+	height: 200px;
+	position: relative;
+
+	.such-inspiration {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 600px;
+		height: 75px;
+		p {
+			text-transform: uppercase;
+			font-size: 50px;
+			display: inline-block;
+			vertical-align: middle;
+			padding: 0 10px;
+			border: solid 3px @h-200;
+			&:nth-of-type(1) {
+				font-weight: bold;
+				background: @h-200;
+				color: black;
+			}
+			&:nth-of-type(2) {
+				color: @h-200;
+				margin-left: -5px;
+			}
+		}
+	}
 
 }
 .news {

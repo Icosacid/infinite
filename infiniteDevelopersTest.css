@@ -7,11 +7,6 @@ InfiniteDevelopers test
 	Design palette -> shades of grey and blue (200° hue, 60% sat, 70%lum)
 }
 .tasks {
-	
-	6.split {
-		background pic of div with bootstrap margin override
-		double div 'I ART' 'THEREFORE I AM'
-	}
 	7.news {
 		colspan 8 div {
 			colspan 6 divs
@@ -77,25 +72,9 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	5.featured {
-		div {
-			colspan 8 centered
-			div {
-				colspan 2 button 'featured', blue 200° bkg
-				colspan 10 hr 
-			}
-			div {
-				2 divs inline-block vert align
-				left {
-					bkg pic (CSS) random small art pic
-					button 'NOVEMBER 31'
-					big text 'ALGORIST MEETUP'
-				}
-				right {
-					Lorems
-				}
-			}
-		}
+	6.split {
+		background pic of div with bootstrap margin override
+		double div 'I ART' 'THEREFORE I AM'
 	}
 }
 
@@ -128,5 +107,25 @@ tasks.in.progress {
 		input with border radii
 		search icon FA
 		Centered text -> 'Yearly Meeting' 'For algorithmic artists'
+	}
+	5.featured {
+		div {
+			colspan 8 centered
+			div {
+				colspan 2 button 'featured', blue 200° bkg
+				colspan 10 hr 
+			}
+			div {
+				2 divs inline-block vert align
+				left {
+					bkg pic (CSS) random small art pic
+					button 'NOVEMBER 31'
+					big text 'ALGORIST MEETUP'
+				}
+				right {
+					Lorems
+				}
+			}
+		}
 	}
 }
