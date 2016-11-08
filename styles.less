@@ -10,7 +10,7 @@
 @h-200: hsl(200, 70%, 60%);
 @h-210: hsl(210, 70%, 60%);
 @h-200-a: hsla(210, 70%, 60%, 0.7);
-@2ssqrt3: 1.1547005383792515290182975610039;
+@2ssqrt3: 1.1547;
 
 /* Global */
 html,
@@ -76,7 +76,7 @@ body {
 	text-align: center;
 	margin: 5px 0 0;
 	&:hover {
-		cursor: default;
+		cursor: pointer;
 	}
 	span.fa,
 	p.brandname,
@@ -146,9 +146,6 @@ body {
 /* Specific style */
 .header {
 	padding: 10px;
-	.logo {
-
-	}
 	.header-right {
 		padding-top: 45px;
 		padding-left: 100px;
@@ -194,7 +191,8 @@ body {
 .banner {
 	position: relative;
 	.mainpic {
-		background-image: url('img/orb.jpg');
+		/* Loaded from JSON */
+		/* background-image: url('img/orb.jpg'); */
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
@@ -286,6 +284,9 @@ body {
 			background-repeat: no-repeat;
 			background-position: 80px center;
 			background-size: 150%;
+			&:hover {
+				cursor: pointer;
+			}
 			.tile {
 				position: absolute;
 				top: 50px;
@@ -365,7 +366,9 @@ body {
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: 150%;
-
+			&:hover {
+				cursor: pointer;
+			}
 		}
 		.tags {
 			margin-left: -10px;
@@ -654,6 +657,7 @@ body {
 			font-size: 1.2rem;
 			&:hover {
 				cursor: pointer;
+				color: white;
 			}
 		}
 	}
@@ -668,6 +672,30 @@ body {
 			&:hover {
 				cursor: pointer;
 			}
+		}
+	}
+}
+
+.loading {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.9);
+	.inner {
+		position: absolute;
+		margin: auto;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		left: 0;
+		width: 200px;
+		height: 200px;
+		font-size: 4rem;
+		span.fa {
+			color: @h-200;
 		}
 	}
 }

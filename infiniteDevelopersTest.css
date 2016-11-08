@@ -10,16 +10,14 @@ InfiniteDevelopers test
 
 }
 .advised.bonus {
-	text about algorists in Lorem
 	parallax on all sections
-	animated hexhover
 	Incorporate Vue.js
 	Readme setup doc
 	Responsiveness
 	Favicon
-	Hover cursors
 	CSS long text handling (add ... when overflow)
 	expl -> _ hex and others factorization
+	Migrate HTML to Underscore templates
 }
 .bonus {
 	global loader icon
@@ -102,6 +100,7 @@ tasks.in.progress {
 	8.lee.jeffries {
 		div like 'featured' with 'artworks'
 		hexCSS
+		animated hexhover
 	}
 	9.bottom {
 		colspan 8 div {
@@ -127,9 +126,11 @@ tasks.in.progress {
 		.hex hovers {
 			
 		}
+		text about algorists in Lorem
 	}
 	.fill all images {
 		
 	}
 	.finetune block dimensions
+	.hover cursors
 }
