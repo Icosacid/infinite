@@ -13,29 +13,21 @@ InfiniteDevelopers test
 	parallax on all sections
 	Incorporate Vue.js
 	Readme setup doc
-	Responsiveness
-	Favicon
 	CSS long text handling (add ... when overflow)
 	expl -> _ hex and others factorization
 	Migrate HTML to Underscore templates
-}
-.bonus {
-	global loader icon
-	creative elements
-	improve semantic content
-}
-tasks.in.progress {
-	
-	
-	.structure.JSON.base {
-		
-	}
 	.create.Firebase.repo {
 		
 	}
 	.AJAX.load {
 
 	}
+}
+.bonus {
+	creative elements
+}
+tasks.in.progress {
+	Responsiveness
 }
 
 .done {
@@ -123,14 +115,13 @@ tasks.in.progress {
 		}
 	}
 	.fill all texts {
-		.hex hovers {
-			
-		}
-		text about algorists in Lorem
+		.hex hovers
+		.text about algorists in Lorem
 	}
-	.fill all images {
-		
-	}
+	.fill all images
 	.finetune block dimensions
 	.hover cursors
+	.structure.JSON.base
+	.favicon
+	.global loader icon
 }
