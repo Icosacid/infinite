@@ -16,6 +16,7 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "fontawesome#^4.7.0",
     "less": "^2.7.1",
-    "parallax.js": "^1.4.2"
+    "parallax.js": "^1.4.2",
+    "underscore": "^1.8.3"
   }
 }

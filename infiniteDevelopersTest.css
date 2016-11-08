@@ -11,12 +11,9 @@ InfiniteDevelopers test
 }
 .advised.bonus {
 	Responsiveness everywhere
-	parallax on all sections
 	Incorporate Vue.js
 	Readme setup doc
 	CSS long text handling (add ... when overflow)
-	expl -> _ hex and others factorization
-	Migrate HTML to Underscore templates
 	.create.Firebase.repo {
 		
 	}
@@ -125,5 +122,7 @@ tasks.in.progress {
 	.structure.JSON.base
 	.favicon
 	.global loader icon
-	Responsiveness for menu
+	.responsiveness for menu
+	.parallax on banner and split sections
+	.migrate some HTML to Underscore templates
 }
