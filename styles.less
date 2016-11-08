@@ -60,7 +60,7 @@ body {
 .tag {
 	padding: 10px;
 	p {
-		background: #CCC;
+		background: #BBB;
 		color: white;
 		padding: 10px 15px;
 		text-transform: uppercase;
@@ -75,7 +75,9 @@ body {
 .logo {
 	text-align: center;
 	margin: 5px 0 0;
-
+	&:hover {
+		cursor: default;
+	}
 	span.fa,
 	p.brandname,
 	p.catch {
@@ -155,6 +157,10 @@ body {
 			vertical-align: middle;
 			margin: 5px;
 			color: #aaa;
+			&:hover {
+				cursor: pointer;
+				color: @h-200;
+			}
 		}
 		p.contact-us {
 			font-weight: bold;
@@ -171,7 +177,6 @@ body {
 			color: white;
 			&:hover {
 				background: @h-200;
-				cursor: pointer;
 			}
 			div {
 				position: absolute;
@@ -229,12 +234,14 @@ body {
 			h3 {
 				text-transform: uppercase;
 				font-size: 2rem;
-				color: white;
+				color: rgba(255, 255, 255, 0.8);
 				max-width: 200px;
 				text-align: left;
+				font-family: 'Prociono', Arial, sans-serif;
 				&:hover {
-					color: @h-200;
+					color: white;
 					cursor: pointer;
+					text-shadow: rgba(0, 0, 0, 0.5) 0 0 20px;
 				}
 			}
 			.search {
@@ -242,17 +249,24 @@ body {
 				padding-top: 5px;
 				position: relative;
 				input {
-					border-radius: 10px;
+					border-radius: 7px;
 					height: 40px;
 					border: none;
 					color: #BBB;
 					padding-left: 10px;
+					&:focus {
+						box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+					}
 				}
 				span.fa {
 					position: absolute;
 					right: 10px;
 					top: 10px;
 					color: #BBB;
+					&:hover {
+						cursor: pointer;
+						color: @h-200;
+					}
 				}
 			}
 		}
@@ -266,9 +280,10 @@ body {
 		.left-catch {
 			position: relative;
 			min-height: 500px;
+			background-color: black;
 			background-image: url('img/starofstars.jpg');
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: 80px center;
 			background-size: 150%;
 			.tile {
 				position: absolute;
@@ -282,8 +297,8 @@ body {
 				font-size: 5rem;
 				max-width: 100px;
 				position: absolute;
-				top: 300px;
-				left: 70px;
+				top: 315px;
+				left: 50px;
 				text-transform: uppercase;
 			}
 
@@ -406,43 +421,16 @@ body {
 			.generate-hexagons(@n, (@i + 1));
 		}
 		.generate-hexagons(@hexagons);
-		/*
-		.hexblock > .hexagon:nth-of-type(1) {
-			left: 0;
-		}
-		.hexblock > .hexagon:nth-of-type(2) {
-			left: 1 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(3) {
-			left: 2 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(4) {
-			left: 3 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(5) {
-			left: 4 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(6) {
-			left: 5 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(7) {
-			left: 6 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(8) {
-			left: 7 * 80px;
-		}
-		.hexblock > .hexagon:nth-of-type(9) {
-			left: 8 * 80px;
-		}
-		*/
+
 		.hexagon .content .inside {
-			opacity: 0;
 			height: 100%;
 			width: 100%;
-			background: @h-200-a;
+			padding-top: 100%;
+			background: none;
 			&:hover {
-				opacity: 1;
-				transition: opacity 500ms;
+				padding-top: 0;
+				background: @h-200-a;
+				transition: padding-top 250ms;
 				cursor: pointer;
 			}
 			p {
@@ -486,6 +474,9 @@ body {
 			position: relative;
 			width: 30px;
 			height: 30px;
+			&:hover {
+				cursor: pointer;
+			}
 			span.fa {
 				position: absolute;
 				&:nth-of-type(1) {
@@ -667,6 +658,9 @@ body {
 			display: inline-block;
 			width: 80px;
 			height: 80px;
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
 }
