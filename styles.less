@@ -142,6 +142,11 @@ body {
 		left: -7.5%;
 	}
 }
+@keyframes bounce {
+	from {padding-top: 0px;}
+	50%  {padding-top: 3px;}
+	to   {padding-top: 0px;}
+}
 
 /* Specific style */
 .header {
@@ -184,6 +189,9 @@ body {
 				top: 0;
 				width: 25px;
 				height: 26px;
+				&:hover {
+					animation: bounce 0.7s ease infinite;
+				}
 			}
 		}
 	}
@@ -371,6 +379,7 @@ body {
 		margin-top: 20px;
 		.preview {
 			min-height: 400px;
+			background-color: black;
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: 150%;
@@ -479,7 +488,8 @@ body {
 	padding: 50px 0;
 	background: #DDD;
 	p.tile {
-		max-width: 33%;
+		max-width: 200px;
+		min-width: 150px;
 		margin-bottom: 40px;
 	}
 	.doc {
@@ -590,6 +600,9 @@ body {
 				margin: auto;
 				width: 180px;
 				height: 50px;
+				&:hover {
+					animation: bounce 0.7s ease infinite;
+				}
 				& > div {
 					display: inline-block;
 					vertical-align: middle;
@@ -625,7 +638,6 @@ body {
 }
 .footer {
 	padding-bottom: 100px;
-	height: 300px;
 	background: #444;
 	padding-top: 30px;
 	h5 {
