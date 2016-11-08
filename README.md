@@ -8,7 +8,7 @@ This project was realized for the Infinite Developers company. It is part of a r
 
 In order to visualize the project in your browser, download the zipped file from GitHub at https://github.com/Icosacid/infinite
 
-Unzip it and the open a console in the **infinite** directory.
+Unzip it and the open a console in the **infinite-master** directory.
 
 Install the **bower** package manager (https://bower.io/)
 
