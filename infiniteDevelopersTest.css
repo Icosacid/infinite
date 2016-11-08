@@ -7,12 +7,26 @@ InfiniteDevelopers test
 	Design palette -> shades of grey and blue (200° hue, 60% sat, 70%lum)
 }
 .tasks {
-	8.lee.jeffries {
-		div like 'featured' with 'artworks'
-		hexCSS
-	}
-	
-	
+
+}
+.advised.bonus {
+	text about algorists in Lorem
+	parallax on all sections
+	animated hexhover
+	Incorporate Vue.js
+	Readme setup doc
+	Responsiveness
+	Favicon
+	Hover cursors
+	CSS long text handling (add ... when overflow)
+	expl -> _ hex and others factorization
+}
+.bonus {
+	global loader icon
+	creative elements
+	improve semantic content
+}
+tasks.in.progress {
 	.fill all texts {
 		.hex hovers {
 			
@@ -31,25 +45,6 @@ InfiniteDevelopers test
 	.AJAX.load {
 
 	}
-}
-.advised.bonus {
-	text about algorists in Lorem
-	parallax on all sections
-	animated hexhover
-	Incorporate Vue.js
-	Readme setup doc
-	Responsiveness
-	Favicon
-	Hover cursors
-	CSS long text handling (add ... when overflow)
-}
-.bonus {
-	global loader icon
-	creative elements
-	improve semantic content
-}
-tasks.in.progress {
-
 }
 
 .done {
@@ -110,6 +105,10 @@ tasks.in.progress {
 		colspan 8 div {
 			colspan 6 divs
 		}
+	}
+	8.lee.jeffries {
+		div like 'featured' with 'artworks'
+		hexCSS
 	}
 	9.bottom {
 		colspan 8 div {
