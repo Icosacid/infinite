@@ -4,6 +4,8 @@
 
 This project was realized for the Infinite Developers company. It is part of a recruitment process that consists in developing a web app out of a picture within 24 hours. The initial image can be viewed at http://icosacid.com/img/misc/preview_test.jpg
 
+The final result is uploaded at http://icosacid.com/infinitedevelopers/
+
 ## Project setup
 
 In order to visualize the project in your browser, download the zipped file from GitHub at https://github.com/Icosacid/infinite
