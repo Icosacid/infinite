@@ -38,6 +38,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	padding: 10px 15px;
+	cursor: default;
 }
 .tile {
 	background: @h-200;
@@ -305,7 +306,9 @@ body {
 				top: 50px;
 				left: 70px;
 				padding: 10px 30px;
-
+				&:hover {
+					cursor: pointer;
+				}
 			}
 			p.meetup {
 				color: white;

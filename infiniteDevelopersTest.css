@@ -1,31 +1,10 @@
-InfiniteDevelopers test
+InfiniteDevelopers test todo list
 
 .directives {
 	Chosen tech -> Vue.js
 	Backend communication -> No PHP but Firebase.js
 	Bower packages -> At least jQuery, FontAwesome, BootStrap, LESS
-	Design palette -> shades of grey and blue (200° hue, 60% sat, 70%lum)
-}
-.tasks {
-
-}
-.advised.bonus {
-	Responsiveness everywhere
-	Incorporate Vue.js
-	Readme setup doc
-	CSS long text handling (add ... when overflow)
-	.create.Firebase.repo {
-		
-	}
-	.AJAX.load {
-
-	}
-}
-.bonus {
-	creative elements
-}
-tasks.in.progress {
-	
+	Design palette -> shades of grey and blue (200° hue, 70% sat, 60% lum)
 }
 
 .done {
@@ -125,4 +104,12 @@ tasks.in.progress {
 	.responsiveness for menu
 	.parallax on banner and split sections
 	.migrate some HTML to Underscore templates
+}
+
+.future.developments {
+	Load data.json from a third party service such as Firebase.js or any API
+	Work on full responsiveness
+	Incorporate Vue.js
+	Handle CSS long text with automatic '...' in case of overflow
+	Add more creative elements for visual and UX impact
 }
