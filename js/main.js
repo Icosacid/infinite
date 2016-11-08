@@ -17,9 +17,17 @@ jQuery(document).ready(function() {
     jQuery.getJSON("data.json", function(data) {
         // Retrieve elements
         var bannerBkgPic = data.banner.background_pic_url;
+        var splitBkgPic = data.split.background_pic_url;
 
-        // Inject in DOM (example)
-        jQuery('.banner .mainpic').css('background-image', 'url(' + bannerBkgPic + ')');
+        // Inject in DOM without parallax (example)
+        //jQuery('.banner .mainpic').css('background-image', 'url(' + bannerBkgPic + ')');
+
+        // Parallax effects
+        jQuery('.mainpic').parallax({imageSrc: bannerBkgPic});
+        jQuery('.split').parallax({imageSrc: splitBkgPic});
+
+        // DOM listeners
+        Infinite.buttonListeners();
 
         // Show content (wait a little for some swag)
         setTimeout(function() {
@@ -27,8 +35,6 @@ jQuery(document).ready(function() {
         }, 1000);
     });
 
-    // DOM listeners
-    Infinite.buttonListeners();
 });
 
 // Functions used when an AJAX request is loading to display loading icon or screen

@@ -6,7 +6,6 @@
  */
 
 /* Less variables */
-@bkg: #FCFCFC;
 @h-200: hsl(200, 70%, 60%);
 @h-210: hsl(210, 70%, 60%);
 @h-200-a: hsla(210, 70%, 60%, 0.7);
@@ -16,7 +15,6 @@
 html,
 body {
 	border: none;
-	background: @bkg;
 	margin: 0;
 	padding: 0;
 }
@@ -132,7 +130,6 @@ body {
 		overflow: hidden;
 	}
 	.content {
-		background-image: url('img/starofstars.jpg');
 		background-size: cover;
 		background-position: center;
 		width: @2ssqrt3 * 100%;
@@ -201,7 +198,7 @@ body {
 	.mainpic {
 		/* Loaded from JSON */
 		/* background-image: url('img/orb.jpg'); */
-		background-color: black;
+		background-color: transparent; //Parallax
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
@@ -336,8 +333,8 @@ body {
 	}
 }
 .split {
-	background-color: black;
-	background-image: url('img/playchaos.jpg');
+	background-color: transparent; // Parallax
+	/*background-image: url('img/playchaos.jpg');*/
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 50%;
@@ -433,6 +430,9 @@ body {
 		top: 90px;
 		& > .hexagon {
 			position: absolute;
+			.content {
+				background-image: url('img/starofstars.jpg');
+			}
 		}
 		& > .hexagon:nth-of-type(2n+1) {
 			top: 0;
@@ -449,37 +449,46 @@ body {
 		}
 		.generate-hexagons(@hexagons);
 
-		.hexagon .content .inside {
-			height: 100%;
-			width: 100%;
-			padding-top: 100%;
-			background: none;
-			&:hover {
-				padding-top: 0;
-				background: @h-200-a;
-				transition: padding-top 250ms;
-				cursor: pointer;
-			}
-			p {
-				margin: 0;
-				text-align: center;
-				color: white;
-				font-size: 1.6rem;
-				&:nth-of-type(1) {
-					font-weight: bold;
-					padding-top: 40px;
-					text-transform: uppercase;
+		& > .hexagon:nth-of-type(3n) .content {
+			background-image: url('img/rhodo_small.jpg');
+		}
+		& > .hexagon:nth-of-type(3n+1) .content {
+			background-image: url('img/beyond-data_small.jpg');
+			background-position: -72px -5px;
+		}
+		& > .hexagon .content {
+			.inside {
+				height: 100%;
+				width: 100%;
+				padding-top: 100%;
+				background: none;
+				&:hover {
+					padding-top: 0;
+					background: @h-200-a;
+					transition: padding-top 250ms;
+					cursor: pointer;
 				}
-				&:nth-of-type(2) {
-					width: 100px;
-					margin: auto;
+				p {
+					margin: 0;
+					text-align: center;
+					color: white;
+					font-size: 1.6rem;
+					&:nth-of-type(1) {
+						font-weight: bold;
+						padding-top: 40px;
+						text-transform: uppercase;
+					}
+					&:nth-of-type(2) {
+						width: 100px;
+						margin: auto;
+					}
 				}
-			}
-			hr {
-				margin: 5px auto;
-				width: 40px;
-				border-width: 2px;
-				border-color: white;
+				hr {
+					margin: 5px auto;
+					width: 40px;
+					border-width: 2px;
+					border-color: white;
+				}
 			}
 		}
 	}
