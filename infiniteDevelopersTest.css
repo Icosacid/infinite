@@ -27,15 +27,8 @@ InfiniteDevelopers test
 	improve semantic content
 }
 tasks.in.progress {
-	.fill all texts {
-		.hex hovers {
-			
-		}
-	}
-	.fill all images {
-		
-	}
-	.finetune block dimensions
+	
+	
 	.structure.JSON.base {
 		
 	}
@@ -129,5 +122,14 @@ tasks.in.progress {
 			colspan 3 divs
 			tiny hr's
 		}
-	}	
+	}
+	.fill all texts {
+		.hex hovers {
+			
+		}
+	}
+	.fill all images {
+		
+	}
+	.finetune block dimensions
 }
