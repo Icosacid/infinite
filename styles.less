@@ -148,7 +148,7 @@ body {
 	padding: 10px;
 	.header-right {
 		padding-top: 45px;
-		padding-left: 100px;
+		text-align: center;
 		& > * {
 			display: inline-block;
 			vertical-align: middle;
@@ -193,6 +193,7 @@ body {
 	.mainpic {
 		/* Loaded from JSON */
 		/* background-image: url('img/orb.jpg'); */
+		background-color: black;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
@@ -225,7 +226,7 @@ body {
 		& > div > div {
 			h3,
 			.search {
-				margin: 25px 30px;
+				margin: 25px 3%;
 				display: inline-block;
 				vertical-align: middle;
 			}
@@ -266,6 +267,13 @@ body {
 						color: @h-200;
 					}
 				}
+			}
+		}
+		.mobile .inner {
+			margin-top: 25px;
+			color: white;
+			&:hover {
+				cursor: pointer;
 			}
 		}
 	}
@@ -676,6 +684,7 @@ body {
 	}
 }
 
+/* Loading screen */
 .loading {
 	display: none;
 	position: fixed;
@@ -696,6 +705,27 @@ body {
 		font-size: 4rem;
 		span.fa {
 			color: @h-200;
+		}
+	}
+}
+
+/* Responsiveness */
+.mobile {
+	display: none;
+	@media (max-width: 767px) {
+		display: block;
+	}
+}
+.desktop {
+	@media (max-width: 767px) {
+		display: none;
+	}
+}
+.banner .menu > div > div {
+	h3,
+	.search {
+		@media (max-width: 1199px) {
+			margin: 25px 1%;
 		}
 	}
 }
