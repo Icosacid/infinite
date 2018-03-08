@@ -39,6 +39,11 @@ jQuery(document).ready(function() {
         // DOM listeners
         Infinite.buttonListeners();
 
+        // Disclaimer close
+        jQuery('.disclaimer .fa-times').click(function() {
+            jQuery('.disclaimer').css('top', -500);
+        });
+
         // Show content (wait a little for some swag)
         setTimeout(function() {
             Infinite.loadFeedback.off();
